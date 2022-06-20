@@ -1,0 +1,18 @@
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":935,"error_msg":"User not found in chat","request_params":[{"key":"method","value":"messages.removeChatUser"},{"key":"oauth","value":"1"},{"key":"chat_id","value":"259"},{"key":"user_id","value":"465697718"},{"key":"v","value":"5.101"},{"key":"random_id","value":"-489674061"}]}}
+[Exception]: код ошибки: 935
+[Exception]: файл: D:\code\vk_php\vendor\digitalstars\simplevk\src\vk_api.php:233
+[Exception]: путь ошибки: #0 D:\code\vk_php\vendor\digitalstars\simplevk\src\vk_api.php(170): DigitalStar\vk_api\vk_api->request()
+#1 D:\code\vk_php\user_bot_vk.php(25): DigitalStar\vk_api\vk_api->kick()
+#2 D:\code\vk_php\vendor\digitalstars\simplevk\src\LongPoll.php(85): {closure}()
+#3 D:\code\vk_php\user_bot_vk.php(28): DigitalStar\vk_api\LongPoll->listen()
+#4 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":935,"error_msg":"User not found in chat","request_params":[{"key":"method","value":"messages.removeChatUser"},{"key":"oauth","value":"1"},{"key":"chat_id","value":"259"},{"key":"user_id","value":"465697718"},{"key":"v","value":"5.101"},{"key":"random_id","value":"3072352"}]}}
+[Exception]: код ошибки: 935
+[Exception]: файл: D:\code\vk_php\vendor\digitalstars\simplevk\src\vk_api.php:233
+[Exception]: путь ошибки: #0 D:\code\vk_php\vendor\digitalstars\simplevk\src\vk_api.php(170): DigitalStar\vk_api\vk_api->request()
+#1 D:\code\vk_php\user_bot_vk.php(18): DigitalStar\vk_api\vk_api->kick()
+#2 D:\code\vk_php\vendor\digitalstars\simplevk\src\LongPoll.php(85): {closure}()
+#3 D:\code\vk_php\user_bot_vk.php(21): DigitalStar\vk_api\LongPoll->listen()
+#4 {main}

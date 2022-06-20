@@ -1,0 +1,273 @@
+@font-face {
+    font-family: 'Circe Regular';
+    src: url('Circe-Regular.eot');
+    src: url('Circe-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Circe-Regular.woff') format('woff'),
+    url('Circe-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+.wraper{
+    padding: 0;
+}
+body{
+    overflow: auto !important;
+}
+.none{
+    height: 10px;
+}
+.bg-pink{
+    background: linear-gradient(to top left, #7a5385, #ffa2b2);
+    background-size: cover;
+}
+
+.text-main{
+    color: #f5ff38;
+    font-family: 'Circe Regular',Arial,sans-serif;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-color: transparent;
+    border-style: solid;
+    z-index: 6;
+}
+.text-first{
+    top: 16px;
+    font-size: 52px;
+
+}
+
+.text-second{
+    font-size: 61px;
+
+}
+
+.text-third{
+    font-size: 34px;
+    top: 135px;
+}
+
+.imgs{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btns{
+    text-align: center;
+    padding-right: 0 !important;
+}
+
+.btn-wahtsapp{
+    z-index: 7;
+    position: relative;
+    font-size: 16px;
+    width: max-content;
+}
+.btn-vk{
+    margin-top: 100px;
+    z-index: 7;
+    position: relative;
+    font-size: 16px;
+    width: max-content;
+}
+
+.footer_1{
+    position: absolute;   
+    background-color: rgb(219, 219, 219) !important;  
+}
+
+.logo{
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+    margin: 0 auto;
+}
+.modal{
+    padding-right: 0px !important;
+}
+.bg-gray{
+    background-color: #b1b1b1;
+}
+.card{
+        background-color: #ffffff00 !important;
+        border: none !important;
+        padding-left: -25px;
+        flex-shrink: 1;
+
+}
+
+.row{
+    padding-right: 18px !important  ;
+}
+
+.img_social_vk{
+    max-width: 47px;
+    margin-right: 10px;
+}
+
+.img_social_ws{
+    max-width: 37px;
+    margin-right: 10px;
+}
+
+.img_social_yt{
+    max-width: 60px;
+    margin-right: 10px;  
+}
+
+.img_social_inst{
+    max-width: 33px;
+    margin-right: 10px;
+}
+.dd{
+    margin: 0px !important;
+}
+.number{
+    width: 226px;
+    margin: 0 auto;
+    display: block;
+}
+
+.btn-yellow{
+    background-color: yellow;
+    color: black;
+    font-weight: 500;
+}
+.btn-yellow:hover{
+    color: rgb(121, 121, 121);
+}
+
+.pol{
+    width: 281px;
+    margin-left: calc(50% - 140px);
+    margin-top: -20px
+}
+
+.studio{
+    margin-top: -16px;
+}
+.font-size{
+    color: gray;
+    font-size: 14px;
+    margin: 0 auto;
+    display: block;
+}
+
+@media (min-device-width: 960px) {
+    .btns_soc{
+        max-width: 100%;
+    }
+    .btn-wahtsapp{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    .btn-vk{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .font-size{
+        font-size: 12px;
+    }
+
+}
+
+@media (max-device-width: 959px) {
+    .img_social_vk{
+        max-width: 51px;
+        margin-right: 10px;
+    }
+    
+    .img_social_ws{
+        max-width: 42px;
+        margin-right: 10px;
+    }
+    
+    .img_social_yt{
+        max-width: 60px;
+        margin-right: 10px;  
+    }
+    
+    .img_social_inst{
+        max-width: 37px;
+        margin-right: 10px;
+    }
+
+    .text-first{
+        font-size: 52px;
+    }
+    .text-second{
+        font-size: 61px;
+    }
+    .text-third{
+        font-size: 34px;
+    }
+    .btns_soc{
+        max-width: 100%;
+    }
+    .btn-wahtsapp{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .btn-vk{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .font-size{
+        font-size: 12px;
+    }
+}
+
+@media (max-device-width: 639px) {
+    .img_social_vk{
+        max-width: 55px;
+        margin-right: 10px;
+    }
+    
+    .img_social_ws{
+        max-width: 46px;
+        margin-right: 10px;
+    }
+    
+    .img_social_yt{
+        max-width: 60px;
+        margin-right: 10px;  
+    }
+    
+    .img_social_inst{
+        max-width: 41px;
+        margin-right: 10px;
+    }
+
+    .text-first{
+        font-size: 43px;
+    }
+    .text-second{
+        font-size: 50px;
+    }
+    .text-third{
+        font-size: 28px;
+    }
+
+    .btn-wahtsapp{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .btn-vk{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+}
+
+@media (max-device-width:479px) {
+    .text-first{
+        font-size: 32px;
+    }
+    .text-second{
+        font-size: 37px;
+    }
+    .text-third{
+        font-size: 21px;
+    }
+}
